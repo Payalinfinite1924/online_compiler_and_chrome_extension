@@ -37,7 +37,7 @@ You can view a live demo of the project on the Chrome Web Store once it's upload
 ### 1. Download the Repository
 
 First, clone the repository to your local machine:
-git clone https://github.com/yourusername/online-compiler-chrome-extension.git
+git clone https://github.com/payalinfinite1924/online-compiler-chrome-extension.git
 
 ### 2. Set Up the Backend
 This extension requires a Flask server to execute the code. Here are the steps to set up the server:
