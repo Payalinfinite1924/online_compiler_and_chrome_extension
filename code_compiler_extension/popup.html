@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Compiler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 300px;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            font-family: monospace;
+        }
+        select, button {
+            margin-top: 10px;
+            width: 100%;
+        }
+        #output {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            white-space: pre-wrap;
+            background-color: #f9f9f9;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h3>Online Compiler by payal</h3>
+    <textarea id="code" placeholder="Write your code here..."></textarea>
+    <select id="language">
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="cpp">C++</option>
+    </select>
+    <button id="runCode">Run Code</button>
+    <div id="output"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
