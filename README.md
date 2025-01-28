@@ -37,27 +37,27 @@ You can view a live demo of the project on the Chrome Web Store once it's upload
 ### 1. Download the Repository
 
 First, clone the repository to your local machine:
-
-```bash
 git clone https://github.com/yourusername/online-compiler-chrome-extension.git
-2. Set Up the Backend
+
+### 2. Set Up the Backend
 This extension requires a Flask server to execute the code. Here are the steps to set up the server:
 
-Navigate to the backend folder:
-bash
-Copy
-cd backend
-Install dependencies:
-bash
-Copy
-pip install -r requirements.txt
-Run the Flask server:
-bash
-Copy
-python app.py
-The backend will be accessible at http://localhost:5000.
+#### Navigate to the backend folder:
+-bash
+-Copy
+-cd backend
+#### Install dependencies:
+-bash
+-Copy
+-pip install -r requirements.txt
+#### Run the Flask server:
+-bash
+-Copy
+-python app.py
+-The backend will be accessible at http://localhost:5000.
 
-3. Install the Extension Locally
+### 3. Install the Extension Locally
+
 Open Chrome and go to the chrome://extensions/ page.
 Turn on Developer Mode in the top-right corner.
 Click on Load unpacked and select the extension folder (online-compiler-chrome-extension).
@@ -67,49 +67,49 @@ The extension uses a popup interface where users can select the language and wri
 
 Upon submitting the form, the code is sent to a Flask backend (via AJAX), which executes the code in the selected language.
 The output or error message is then returned to the extension and displayed in the popup.
-Backend Technologies:
+### Backend Technologies:
 Flask: Lightweight Python web framework.
 Subprocess: Used to run code on the server and capture output.
 CORS: Allows requests from the Chrome extension to the Flask backend.
 Regex: Used to extract the class name from Java code.
-Supported Languages:
+#### Supported Languages:
 Python: Runs Python scripts.
 Java: Compiles and runs Java programs.
 C++: Compiles and runs C++ programs.
-Usage
+### Usage
 Write Code: Open the extension's popup and write your code in the provided text area.
 Select Language: Choose between Python, Java, or C++.
 Run Code: Click on Run Code, and the output or error message will appear in the result box below the text area.
-Features
+### Features
 Real-time code execution: Get immediate feedback for your code in Python, Java, and C++.
 Responsive UI: The extension’s interface is designed to be user-friendly and simple.
 Developed by Payal: A personal project to enhance coding skills and demonstrate the power of Chrome Extensions.
-Contributing
+### Contributing
 We welcome contributions! If you'd like to improve the extension, here’s how you can help:
 
 Fork the repository.
 Clone your fork to your local machine.
 Create a branch for your feature or bug fix.
 Submit a Pull Request with a clear description of your changes.
-Guidelines:
+### Guidelines:
 Follow the PEP 8 guidelines for Python code.
 Ensure your code is well-documented.
 Write tests for new features or bug fixes.
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+### Acknowledgements
 Flask: Web framework for Python.
 CORS: Cross-Origin Resource Sharing support for Flask.
 Subprocess: For executing code from the backend.
 Regex: Used to extract Java class names.
-Contact
+### Contact
 If you have any questions or need support, feel free to reach out to the project maintainer.
 
-Email: payal@example.com
-LinkedIn: Payal's LinkedIn
-GitHub: Payal's GitHub
-Important Notes:
+Email: payal24102003@gmail.com
+LinkedIn: [https://www.linkedin.com/in/payal-kumari-5432235](https://in.linkedin.com/in/payal-kumari-543ba2235)
+
+### Important Notes:
 This extension uses a backend server (Flask) for running code. You need to deploy or run this server locally for the extension to function.
 The extension can also be improved with additional features such as supporting more programming languages, adding a code editor like Monaco Editor, or integrating with cloud-based code execution services.
 How to Update the Extension:
